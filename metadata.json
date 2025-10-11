@@ -1,0 +1,5 @@
+{
+  "name": "Dishuflix pay",
+  "description": "A responsive web-based video streaming application called 'Dishuflix' that embeds a powerful video player with built-in search functionality for movies and TV shows, inspired by Netflix's UI.",
+  "requestFramePermissions": []
+}

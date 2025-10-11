@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Movie } from './data';
-import { CloseIcon, PlayIcon, PlusIcon, CheckIcon, ShareIcon, DownloadIcon, StarIcon } from './Icons';
+import { CloseIcon, PlayIcon, PlusIcon, CheckIcon, DownloadIcon, StarIcon } from './Icons';
 
 interface MovieDetailsModalProps {
   movie: Movie;
@@ -115,12 +115,6 @@ const MovieDetailsModal: React.FC<MovieDetailsModalProps> = ({ movie, allMovies,
                     aria-label="Download"
                  >
                     <DownloadIcon className="w-6 h-6"/>
-                </button>
-                <button 
-                    className="w-11 h-11 flex items-center justify-center rounded-full border-2 border-gray-400 text-gray-200 transform transition-transform hover:scale-110 hover:border-white"
-                    aria-label="Share"
-                 >
-                    <ShareIcon className="w-6 h-6"/>
                 </button>
             </div>
 
